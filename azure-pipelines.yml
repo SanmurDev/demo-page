@@ -6,8 +6,8 @@ resources:
 
 variables:
   - group: CICD
-  - name: appVersion
-    value: $[variables.appVersion]
+#  - name: appVersion
+#    value: $[variables.appVersion]
 
 parameters:
   - name: tag
